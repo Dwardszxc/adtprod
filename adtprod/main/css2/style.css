@@ -1,0 +1,26 @@
+.ptob{
+            font-weight: bold;
+        }
+    	.login{
+    		border-radius: 10px;
+    		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+			transition: all 200ms ease-out;
+			padding-bottom: 5px;
+  		}
+  		.login:hover{
+    		box-shadow: 0 0 10px rgba(139, 226, 52);
+  		}
+  		.required-mark{
+  			color:red !important;
+  		}
+        .nb{
+            background-color: #4B286D !important;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+        }
+        .nav-pills .nav-item .active{
+            background-color: #66CC00;
+            color: white !important;
+        }
+        .nav-pills .nav-item .active:hover{
+            background-color: #2B8000;
+        }
