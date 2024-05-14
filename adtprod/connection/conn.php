@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Manila');
- if (!defined('SERVERNAME')) define('SERVERNAME', '100.66.138.155');
-    if (!defined('USERNAME')) define('USERNAME', 'infra');
-    if (!defined('PASSWORD')) define('PASSWORD', '!nfra0m');
+ if (!defined('SERVERNAME')) define('SERVERNAME', '');
+    if (!defined('USERNAME')) define('USERNAME', '');
+    if (!defined('PASSWORD')) define('PASSWORD', '');
     if (!defined('DBNAME')) define('DBNAME', 'dbattendancehrm');
     $conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DBNAME);
     mysqli_set_charset($conn, "utf8");
