@@ -1,9 +1,9 @@
 <?php
 date_default_timezone_set('Asia/Manila');
- if (!defined('SERVERNAME')) define('SERVERNAME', '100.66.138.155');
-    if (!defined('USERNAME')) define('USERNAME', 'infra');
-    if (!defined('PASSWORD')) define('PASSWORD', '!nfra0m');
-    if (!defined('DBNAME')) define('DBNAME', 'dbattendancehrm');
+ if (!defined('SERVERNAME')) define('SERVERNAME', '');
+    if (!defined('USERNAME')) define('USERNAME', '');
+    if (!defined('PASSWORD')) define('PASSWORD', '');
+    if (!defined('DBNAME')) define('DBNAME', '');
 	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DBNAME);
     mysqli_set_charset($conn, "utf8");
     if ($conn->connect_error) 
@@ -11,10 +11,10 @@ date_default_timezone_set('Asia/Manila');
         die("Connection failed: " . $conn->connect_error);
     }
 
-    if (!defined('SERVERNAME2')) define('SERVERNAME2', 'localhost');
-    if (!defined('USERNAME2')) define('USERNAME2', 'infra');
-    if (!defined('PASSWORD2')) define('PASSWORD2', '!nfra0m2020');
-    if (!defined('DBNAME2')) define('DBNAME2', 'adtprodtooldb');
+    if (!defined('SERVERNAME2')) define('SERVERNAME2', '');
+    if (!defined('USERNAME2')) define('USERNAME2', '');
+    if (!defined('PASSWORD2')) define('PASSWORD2', '');
+    if (!defined('DBNAME2')) define('DBNAME2', '');
     $conn2 = new mysqli(SERVERNAME2, USERNAME2, PASSWORD2, DBNAME2);
     mysqli_set_charset($conn2, "utf8");
     if ($conn2->connect_error) 
